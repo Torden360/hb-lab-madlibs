@@ -9,10 +9,11 @@
     Hi {{ person }}! I think you're {{ compliment }}!
     <form action="/game">
         <label> Would you like to play a game? </label>
-        <input type="radio" name="playgame" value="yes">Yes
-        <input type="radio" name="playgame" value="no">No
+            <input type="radio" name="playgame" value="yes">Yes
+            <input type="radio" name="playgame" value="no">No
+            <br>
+
         <input type="hidden" name="person" value="{{ person }}">
-        <br>
         <input type="submit">
     </form>
 
